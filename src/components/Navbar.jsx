@@ -29,8 +29,9 @@ export default function Navbar() {
                 alt="United Hearts Logo"
               />
               <span className="self-center uppercase text-2xl font-bold whitespace-nowrap">
-                United Hearts
+                United
               </span>
+              <span className="font-bold text-xl lobster-regular">Hearts</span>
             </a>
           </div>
           <div className="flex items-center gap-4">

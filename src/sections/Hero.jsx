@@ -39,7 +39,7 @@ export default function Hero() {
           </a>
         </div>
         <div className="md:col-span-7">
-          <div className="mt-20 md:mt-0 md:h-full">
+          <div className="mt-20 md:mt-2 md:h-full">
             <Image
               src={heroImage}
               className="size-full object-cover"
