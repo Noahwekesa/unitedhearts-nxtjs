@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <Intro />
-      {/* <Testimonials /> */}
+      <Testimonials />
     </>
   );
 }
