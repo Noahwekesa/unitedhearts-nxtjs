@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PapaAluda from "@/assets/images/29.jpeg";
+import CutCake from "@/assets/images/cake.jpg";
 import GiveFood from "@/assets/images/give.jpeg";
 
 export default function Intro() {
@@ -21,7 +21,7 @@ export default function Intro() {
         <div className="grid grid-cols-2 gap-4 mt-8">
           <Image
             className="w-full rounded-lg"
-            src={GiveFood}
+            src={CutCake}
             alt="office content 1"
           />
           <Image
