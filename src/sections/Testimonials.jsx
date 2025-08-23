@@ -40,7 +40,7 @@ export default function Testimonials() {
   return (
     <section className="py-24 md:py-32 lg:py-40">
       <div className="mx-auto max-w-screen-xl">
-        <h2 className="text-4xl md:text-7xl flex-col overflow-hidden">
+        <h2 className="text-4xl md:text-7xl lg:text-8xl flex-col overflow-hidden">
           <span className="whitespace-nowrap">
             Inspiring Words from Lives We've Touched
           </span>
@@ -56,7 +56,7 @@ export default function Testimonials() {
                   <Image src={image} alt={name} className="size-full object-cover" style={{ objectPosition: `50% ${imagePositionY * 100}%` }} />
                 </div>
                 <blockquote className="md:col-span-3">
-                  <div className="text-3xl md:text-5xl mt-8 md:mt-0">
+                  <div className="text-3xl md:text-5xl lg:text-6xl mt-8 md:mt-0">
                     <span>&ldquo;</span>
                     <span >{quote}</span>
                     <span>&rdquo;</span>
